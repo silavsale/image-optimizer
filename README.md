@@ -1,6 +1,6 @@
 Install dependencies: brew install librsvg imagemagick mozjpeg
 
-raster SVG: rsvg-convert ${file}.svg -o ${file}.png (can’t just extract since there are SVG effects/layers that affect the image)
+```raster SVG: rsvg-convert ${file}.svg -o ${file}.png (can’t just extract since there are SVG effects/layers that affect the image)```
 
 if file has transparency:
 
